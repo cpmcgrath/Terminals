@@ -9,6 +9,8 @@
         #region Constructors (1)
         public AutoItEnableForProtocolsOptionPanel()
         {
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             // Don't load the auto it connection, if the user has selected
             // the auto it editor in the favorites editor combobox.
             //ExcludeProtocols.Add(typeof(AutoItEditorConnection).GetProtocolName());

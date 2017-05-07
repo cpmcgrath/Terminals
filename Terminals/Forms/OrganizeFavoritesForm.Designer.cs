@@ -1103,7 +1103,6 @@ namespace Terminals.Forms
             this.ClientSize = new System.Drawing.Size(866, 489);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.Icon = global::Terminals.Properties.Resources.terminalsicon;
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;

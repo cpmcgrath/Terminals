@@ -30,6 +30,8 @@ namespace Terminals.Connection.Panels.OptionPanels
             // 
             // OptionPanel
             // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "OptionPanel";
             this.Size = new System.Drawing.Size(514, 332);
             this.ResumeLayout(false);

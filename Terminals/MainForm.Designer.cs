@@ -311,7 +311,6 @@ namespace Terminals
             this.tcTerminals.AllowDrop = true;
             this.tcTerminals.AlwaysShowClose = false;
             this.tcTerminals.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tcTerminals.Font = new System.Drawing.Font("Tahoma", 8.25F);
             this.tcTerminals.Location = new System.Drawing.Point(0, 0);
             this.tcTerminals.Name = "tcTerminals";
             this.tcTerminals.Padding = new System.Windows.Forms.Padding(1, 20, 1, 1);

@@ -132,7 +132,6 @@
             this.Controls.Add(this.domainTextBox);
             this.Controls.Add(this.passwordTextBox);
             this.Controls.Add(this.userTextBox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UserSelectForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

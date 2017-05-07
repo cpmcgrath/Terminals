@@ -6,6 +6,12 @@
 
     public class TextEnableForProtocolsOptionPanel : EnableProtocolOptionPanel
     {
+        public TextEnableForProtocolsOptionPanel()
+        {
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+        }
+
         #region Public Methods (1)
         public override string DefaultProtocolName
         {

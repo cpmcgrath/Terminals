@@ -412,7 +412,6 @@ namespace Terminals.Panels
         	this.Controls.Add(this.lnkHomepage);
         	this.Controls.Add(this.btnOk);
         	this.Controls.Add(this.btnCancel);
-        	this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
         	this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
         	this.MaximizeBox = false;
         	this.MinimizeBox = false;

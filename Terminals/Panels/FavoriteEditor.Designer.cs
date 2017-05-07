@@ -1436,7 +1436,6 @@ namespace Terminals.Panels
             // 
             // contextMenuStripDefaults
             // 
-            this.contextMenuStripDefaults.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contextMenuStripDefaults.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveCurrentSettingsAsDefaultToolStripMenuItem,
             this.removeSavedDefaultsToolStripMenuItem});
@@ -1461,7 +1460,6 @@ namespace Terminals.Panels
             // 
             // contextMenuStripSave
             // 
-            this.contextMenuStripSave.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contextMenuStripSave.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.saveConnectToolStripMenuItem,
             this.saveNewToolStripMenuItem,
@@ -1568,8 +1566,6 @@ namespace Terminals.Panels
             this.Controls.Add(this.TabControl1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox7);
-            this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;

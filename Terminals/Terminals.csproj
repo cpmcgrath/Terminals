@@ -39,7 +39,6 @@
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <RunCodeAnalysis>False</RunCodeAnalysis>
-    <NoWin32Manifest>False</NoWin32Manifest>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
     <DontImportPostSharp>True</DontImportPostSharp>
   </PropertyGroup>
@@ -117,6 +116,9 @@
   <PropertyGroup />
   <PropertyGroup />
   <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AxInterop.Microsoft.VMRCClientControl.Interop">
       <HintPath>..\DLLs\VMRC\AxInterop.Microsoft.VMRCClientControl.Interop.dll</HintPath>
@@ -160,6 +162,12 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaseForm.Designer.cs">
+      <DependentUpon>BaseForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connections\FileOperations.cs" />
     <Compile Include="Connections\ReconnectingControl.cs">
       <SubType>UserControl</SubType>
@@ -934,6 +942,7 @@
     <None Include="..\Terminals.Setup\Terminals.iss">
       <Link>Terminals.iss</Link>
     </None>
+    <None Include="app.manifest" />
     <None Include="packages.config" />
     <None Include="TerminalServices\WTSApi32.cs" />
     <EmbeddedResource Include="Forms\Controls\HistoryTreeView.resx">

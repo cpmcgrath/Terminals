@@ -50,7 +50,6 @@ namespace Terminals.Forms
             this.label1.AllowDrop = true;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.label1.Location = new System.Drawing.Point(104, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(217, 13);
@@ -160,7 +159,6 @@ namespace Terminals.Forms
             this.Controls.Add(this.pnlOptions);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;

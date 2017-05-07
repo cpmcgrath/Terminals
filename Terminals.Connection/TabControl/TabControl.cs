@@ -1007,7 +1007,6 @@ namespace Terminals.Connection.TabControl
 
             this.menuGlyph = new TabControlMenuGlyph(this.ToolStripRenderer);
             this.closeButton = new TabControlCloseButton(this.ToolStripRenderer);
-            this.Font = new Font("Tahoma", 8.25f, FontStyle.Regular);
             this.sf = new StringFormat();
             this.movePreview = new TabPreview(this);
             this.movePreview.AllowDrop = true;

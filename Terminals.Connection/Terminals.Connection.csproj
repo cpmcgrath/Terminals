@@ -186,6 +186,9 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Panels\OptionPanels\EnableProtocolOptionPanel.resx">
+      <DependentUpon>EnableProtocolOptionPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ScreenCapture\CaptureManagerLayout.resx">
       <DependentUpon>CaptureManagerLayout.cs</DependentUpon>
     </EmbeddedResource>

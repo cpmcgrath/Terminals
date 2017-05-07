@@ -12,7 +12,7 @@ using Terminals.Connection.Panels.OptionPanels;
 
 namespace Terminals.Panels
 {
-    public partial class OptionEditor : Form
+    public partial class OptionEditor : BaseForm
     {
         private IOptionPanel currentPanel;
 
@@ -103,8 +103,8 @@ namespace Terminals.Panels
         /// </summary>
         private void ApplySystemFont()
         {
-            this.Font = SystemFonts.IconTitleFont;
-            this.AutoScaleMode = AutoScaleMode.Dpi;
+            //this.Font = SystemFonts.IconTitleFont;
+            this.AutoScaleMode = AutoScaleMode.Font;
         }
 
         private void SetFormSize()

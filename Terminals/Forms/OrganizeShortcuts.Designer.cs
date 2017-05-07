@@ -238,7 +238,6 @@ namespace Terminals.Forms
             this.Controls.Add(this.labelExec);
             this.Controls.Add(this.labelShortcut);
             this.Controls.Add(this.shortcutCombobox);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
